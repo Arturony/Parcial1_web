@@ -1,0 +1,433 @@
+body
+{
+    background: #E5E5E5;
+}
+
+.nav-background
+{
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(270deg, #745ECE 0%, rgba(105, 72, 237, 0.41) 47.4%, #5E63C8 82.29%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-img
+{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 100px;
+    top: 10px;
+
+    mix-blend-mode: normal;
+    border-radius: 2px;
+}
+
+.search-background
+{
+    position: absolute;
+    width: 892px;
+    height: 47px;
+    left: 448px;
+    top: 20px;
+
+    background: #FFFFFF;
+}
+
+.search-input
+{
+    position: absolute;
+    width: 792px;
+    height: 30px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    margin: 9px;
+    border-width: 0px;
+    color: #000000;
+}
+
+.search-box
+{
+    position: absolute;
+    width: 56px;
+    height: 47px;
+    left: 836px;
+    top: 0px;
+
+    background: #E5E5E5;
+    border: 1px solid #C6C2C2;
+    box-sizing: border-box;
+}
+
+.search-img
+{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+}
+
+.fav-logo
+{
+    position: absolute;
+    width: 44px;
+    height: 40px;
+    left: 1375px;
+    top: 20px;
+}
+
+.main-content
+{
+    position: absolute;
+    width: 1240px;
+    left: 100px;
+    height: auto;
+    top: 159px;
+}
+
+.item
+{
+    position: relative;
+    width: auto;
+    height: 221px;
+    padding: 0px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+.list-img
+{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 44px;
+    top: 30px;
+    bottom: 11px;
+}
+
+.list-text
+{
+    position: absolute;
+    top: 30px;
+    bottom: 156px;
+    width: 150px;
+    height: 35px;
+    padding: 0px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.list-price
+{
+    left: 346px;
+}
+
+.list-shipping
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 530px;
+    top: 34px;
+    bottom: 167px;
+
+    padding: 0px;
+}
+
+.list-location
+{
+    left: 1011px;  
+    
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.list-model
+{
+    position: absolute;
+    width: 500px;
+    height: 35px;
+    left: 348px;
+    top: 112px;
+
+    padding: 0px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.title-fav
+{
+    position: absolute;
+    width: 312px;
+    height: 31px;
+    left: 100px;
+    top: 104px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #000000;
+}
+
+.main-fav-content
+{
+    position: absolute;
+    width: 1240px;
+    height: auto;
+    left: 100px;
+    top: 163px;
+}
+
+.delete-fav
+{
+    width: auto;
+    height: 89px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+.del-checkbox
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 40px;
+    top: 30px;
+
+    padding: 0px;
+    background-color: #C4C4C4;
+}
+
+.button-delete-fav
+{
+    position: absolute;
+    width: 200px;
+    height: 51px;
+    left: 100px;
+    top: 15px;
+
+    background: #ECE9E9;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+.fav-img
+{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 100px;
+    top: 20px;
+    bottom: 21px;
+}
+
+.sel-checkbox
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 40px;
+    top: 92px;
+    padding: 0px;
+
+    background: #C4C4C4;
+}
+
+.fav-detail-button
+{
+    position: absolute;
+    width: 200px;
+    height: 51px;
+    left: 984px;
+    top: 67px;
+
+    border-width: 0px;
+
+    background: #C968CB;
+    border-radius: 20px;
+}
+
+.detail-title
+{
+    position: absolute;
+    width: 1120px;
+    height: 32px;
+    left: 99px;
+    top: 114px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.detail-container
+{
+    position: absolute;
+    width: 1240px;
+    height: 1200px;
+    left: 100px;
+    top: 158px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+.img-detail
+{
+    position: absolute;
+    width: 563px;
+    height: 520px;
+    left: 50px;
+    top: 54px;
+    border-radius: 15px;
+}
+
+.product-qnt
+{
+    position: absolute;
+    width: 563px;
+    height: 520px;
+    left: 878px;
+    top: 54px;
+
+    border-radius: 15px;
+}
+
+.detail-model
+{
+    position: absolute;
+    width: 312px;
+    height: 31px;
+    left: 878px;
+    top: 85px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.detail-price
+{
+    position: absolute;
+    width: 312px;
+    height: 33px;
+    left: 878px;
+    top: 230px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.button-label-detail
+{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.button-buy-detail
+{
+    position: absolute;
+    width: 312px;
+    height: 51px;
+    left: 878px;
+    top: 280px;
+    border-width: 0px;
+
+    background: #C968CB;
+    border-radius: 20px;
+}
+
+.button-add-fav
+{
+    position: absolute;
+    width: 312px;
+    height: 51px;
+    left: 878px;
+    top: 350px;
+
+    border-width: 0px;
+    background: #8C86D7;
+    border-radius: 20px;
+}
+
+.detail-description
+{
+    position: absolute;
+    width: 312px;
+    height: 31px;
+    left: 50px;
+    top: 597px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #000000;
+}
+
+.product-description
+{
+    position: absolute;
+    width: 828px;
+    height: 170px;
+    left: 50px;
+    top: 651px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #B8ACAC;
+}

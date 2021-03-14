@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mercado Privado</title>
+</head>
+<body>
+    <nav>
+        <div class="container-fluid nav-background">
+            <img src="data/logo.png" alt="logo" class="logo-img" onclick="renderListNoList()">
+            <div class="search-background">
+                <input type="text" id="search" class="search-input" placeholder="Filtrar por categoría">
+                <div class="search-box">
+                    <img src="data/search.png" alt="search" onclick="searchProduct()" class="search-img"> 
+                </div>
+            </div>
+            <img src="data/favorite.png" alt="favorite" class="fav-logo" onclick="renderFavourites()">
+        </div>
+    </nav>
+    <main id="main">
+        <!--
+        <div class="container main-content">
+            <div class="row item">
+                <img src="data/phone-list.png" alt="phone small" class="list-img">
+                <span class="list-text list-price">$3.200.000</span>
+                <img src="data/free-shipping.png" alt="free-shipping" class="list-shipping">
+                <span class="list-text list-location">Bogotá</span>
+                <span class="list-model">iPhone 11 64 Gb Negro</span>
+            </div>
+        </div>
+        -->
+
+        <!--
+        <h2 class="title-fav">Favoritos</h2>
+        <div class="container main-fav-content">
+                <div class="row delete-fav">
+                    <input type="checkbox" id="delete-check" class="del-checkbox" value="first_checkbox">
+                    <button class="button-delete-fav" onclick=""><label class="button-label">Eliminar</label></button>
+                </div>
+                <div class="row item">
+                    <input type="checkbox" id="select-check" class="sel-checkbox" value="first_checkbox" onchange="">
+                    <img src="data/phone-list.png" alt="phone-list" class="fav-img" onclick="">
+                    <span class="list-text list-price">$3.200.000</span>
+                    <img src="data/free-shipping.png" alt="free-shipping" class="list-shipping">
+                    <span class="list-model">iPhone 11 64 Gb Negro</span>
+                    <button class="fav-detail-button" onclick=""><label class="button-label">Ver artículo</label></button>
+                </div>
+        </div>
+        -->
+        
+        <!--
+            <span class="detail-title">Celulares y Teléfonos > Celulares y Smartphones</span>
+            <div class="detail-container">
+                <img src="data/phone-list.png" alt="phone-detail" class="img-detail">
+                <span class="product-qnt">Usado | 500 vendidos</span>
+                <span class="detail-model">iPhone 11 64 Gb Negro</span>
+                <span class="detail-price">$ 3.200.000</span>
+                <button class="button-buy-detail"><label class="button-label-detail">Comprar</label></button>
+                <button class="button-add-fav"><label class="button-label-detail">Añadir a favoritos</label></button>
+                <span class="detail-description">Descripción del producto</span>
+                <p class="product-description">Pensado para vos El Samsung A51 posee el novedoso sistema operativo Android 10 que incorpora respuestas inteligentes y acciones sugeridas para todas tus aplicaciones. Entre sus diversas funcionalidades encontrarás el tema oscuro, navegación por gestos y modo sin distracciones, para que completes tus tareas mientras disfrutás al máximo tu dispositivo. Fotografía profesional en tu bolsillo Descubrí infinitas posibilidades para tus fotos con las 4 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados. Experiencia visual increíble Mirá tus series y películas favoritas con la mejor definición a través de su pantalla Super AMOLED de 6.5 ". Disfrutá de colores brillantes y detalles precisos en todos tus contenidos. Desbloqueo facial y dactilar Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque, o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido. Batería superior ¡Desenchufate! Con la súper batería de 4000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de recargar tu teléfono.</p>
+            </div>
+        -->
+
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
