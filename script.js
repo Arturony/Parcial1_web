@@ -190,7 +190,7 @@ function addToDelete(id)
         if(toDelete.length == 0)
         {
             document.getElementById("del").disabled = true;
-            document.document.getElementById("del").style.background = '#ECE9E9';
+            document.getElementById("del").style.background = '#ECE9E9';
         }
     }
     else
@@ -227,7 +227,7 @@ function checkAll()
         {
             cheks[i].fireEvent("onchange");
         }
-        cheks[i].checked = true;
+        cheks[i].checked = !cheks[i].checked;
     }
 }
 
